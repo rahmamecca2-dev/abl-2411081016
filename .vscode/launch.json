@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<api-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hafizh.api_gateway.ApiGatewayApplication",
+            "projectName": "api-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mecca.eureka.EurekaApplication",
+            "projectName": "eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrderApplication<order>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mecca.order.OrderApplication",
+            "projectName": "order",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PelangganApplication<pelanggan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mecca.pelanggan.PelangganApplication",
+            "projectName": "pelanggan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProdukApplication<produk>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mecca.produk.ProdukApplication",
+            "projectName": "produk",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
